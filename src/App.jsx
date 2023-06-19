@@ -1,8 +1,11 @@
 
 import './App.css'
-import Accordion from './component/Accordion'
 import Footer from './component/Footer'
 import Header from './component/Header'
+import CoreValues from './assets/corevalues.svg'
+import SpeedImprov from './assets/Speed-Improvement.png'
+import Exhaust from './assets/Exhaust.png'
+import Accesories from './assets/Accesories.png'
 
 function App() {
 
@@ -28,6 +31,7 @@ function App() {
                 </div>
             </div>
         </section>
+
         <section>
           <div className='md:grid md:grid-cols-3 md:gap-6 px-5'>
           <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" >
@@ -73,6 +77,74 @@ function App() {
           </div>
         </section>
 
+
+        <section className='w-full py-10 px-5'>
+          <div className=' mx-auto max-w-screen-xl text-center mb-4'>
+            <div className='flex justify-between'>
+              <div>
+                <h2 className='text-[#029FE4] text-4xl font-bold mb-2'>Our Core Values</h2>
+                <p className='text-lg px-10 mt-2'>Ridiculus laoreet libero pretium et, sit vel elementum convallis fames. Sit suspendisse etiam eget egestas. Aliquet odio et lectus etiam sit. In mauris rutrum ac ut volutpat, ornare nibh diam. Montes, vitae, nec amet enim.</p>
+              </div>
+              <div>
+                <img src={CoreValues} alt="" />
+              </div>
+            </div>
+            
+          </div>
+          <div className='max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none mt-5'>
+            <div className='relative flex flex-col items-center p-6 bg-white rounded shadow-xl'>
+              <h4 className='text-xl font-bold leading-snug tracking-tight mb-1'>
+                Dedication
+              </h4>
+              <p className='text-gray-600 text-center'>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.</p>
+            </div>
+            <div className='relative flex flex-col items-center p-6 bg-white rounded shadow-xl'>
+              <h4 className='text-xl font-bold leading-snug tracking-tight mb-1'>
+                Intellectual Honesty
+              </h4>
+              <p className='text-gray-600 text-center'>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias conse.</p>
+            </div>
+            <div className='relative flex flex-col items-center p-6 bg-white rounded shadow-xl'>
+              <h4 className='text-xl font-bold leading-snug tracking-tight mb-1'>
+                Curiosity
+              </h4>
+              <p className='text-gray-600 text-center'>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+            </div>
+          </div>
+          <div className='flex justify-end py-5'>
+           
+          </div>
+        </section>
+        <section className='p-10'>
+          <div className='text-center'>
+                <h2 className='text-[#029FE4] text-4xl font-bold mb-2'>OUR SPECIALITY</h2>
+                <p className='text-lg px-10 mt-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod libero vel leo auctor, in venenatis nulla consequat. Sed commodo nunc sit amet congue aliquam.</p>
+              </div>
+          <div className='max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none mt-5'>         
+            <a href="#" className="p-2 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg p-2" src={SpeedImprov} alt=""/>
+                <div className="flex flex-col justify-between p-4 leading-normal">
+                    <p className='text-[#029FE4] text-xs mb-2'>Speed Improvement</p>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod libero vel leo auctor, in venenatis nulla consequat. Sed commodo nunc sit amet congue aliquam.</p>
+                    
+                </div>
+            </a>
+            <a href="#" className="p-2 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg p-2" src={Accesories} alt=""/>
+                <div className="flex flex-col justify-between p-4 leading-normal">
+                    <p className='text-[#029FE4] text-xs mb-2'>Accesories</p>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod libero vel leo auctor, in venenatis nulla consequat. Sed commodo nunc sit amet congue aliquam.</p>
+                </div>
+            </a>
+            <a href="#" className="p-2 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg p-2" src={Exhaust} alt=""/>
+                <div className="flex flex-col justify-between p-4 leading-normal">
+                    <p className='text-[#029FE4] text-xs mb-2'>Exhaust</p>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod libero vel leo auctor, in venenatis nulla consequat. Sed commodo nunc sit amet congue aliquam.</p>
+                </div>
+            </a>
+          </div>
+        </section>
         </div>
         <Footer />
       </div>

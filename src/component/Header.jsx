@@ -1,4 +1,4 @@
-import { FaRegBell } from 'react-icons/fa';
+
 import companyLogo from './../assets/logo.png'
 
 const Header = () => {
