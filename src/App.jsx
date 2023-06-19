@@ -29,7 +29,48 @@ function App() {
             </div>
         </section>
         <section>
-
+          <div className='md:grid md:grid-cols-3 md:gap-6 px-5'>
+          <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" >
+              <div className="mb-8 md:mb-0">
+                <a
+                  className='flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3'
+                  href="#0"
+                 
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-[#029FE4] text-3xl">Who we are</div>
+                    <p className='font-semibold text-lg mb-2'>Technology Company</p>
+                    <div className="text-gray-600 text-sm">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
+                  </div>
+                  
+                </a>
+                <a
+                  className='flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3'
+                  href="#0"
+                 
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-[#029FE4] text-3xl">What we do</div>
+                    <p className='font-semibold text-lg mb-2'>Professional Brand Management</p>
+                    <div className="text-gray-600 text-sm">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                  </div>
+                  
+                </a>
+                <a
+                  className='flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3'
+                  href="#0"
+                 
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-[#029FE4] text-3xl">How we do</div>
+                    <p className='font-semibold text-lg mb-2'>Strategize, Design, Collaborate</p>
+                    <div className="text-gray-600 text-sm">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse sequam nihil molestiae consequatur.</div>
+                  </div>
+                  
+                </a>
+              </div>
+            </div>
+          </div>
         </section>
 
         </div>
